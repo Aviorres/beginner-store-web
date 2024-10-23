@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images product page/image1.png" alt="product 1" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>casual t shirt</h1>
+                <h2>Rp. 150.000</h2>
+                <h3>diskon 20%</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate maiores quia alias voluptates iure. Facilis doloremque error officia dolore maxime delectus unde, veniam eius impedit neque obcaecati, odit asperiores inventore?</p>
+                <form>
+                    <div class="size-select">
+                        <p>size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="xtra large">
+                            <input type="radio" name="size" id="xtra large">
+                            <span>XL</span>
+                        </label>
+                        <label for="xtra xtra large">
+                            <input type="radio" name="size" id="xtra xtra large">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+
+                    <div class="colour">
+                        <p>colour</p>
+                        <label for="red">
+                            <input type="radio" name="colour" id="red" data-image="red.jpg"> 
+                            <span class="colour-1"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="colour" id="green" data-image="green.jpg">
+                            <span class="colour-2"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="colour" id="blue" data-image="blue.jpg">
+                            <span class="colour-3"></span>
+                        </label>
+                        <label for="yellow">
+                            <input type="radio" name="colour" id="yellow" data-image="yellow.jpg">
+                            <span class="colour-4"></span>
+                        </label>
+                    </div>
+
+                    <div class="quantity">
+                        <p>quantity</p>
+                        <input type="number" value="1" min="1" id="quantityinput">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <button>buy now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
